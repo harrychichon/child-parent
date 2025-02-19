@@ -1,0 +1,13 @@
+.ClubCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  width: 320px;
+  margin: 1rem;
+  padding: 0.5rem;
+  background: #242424;
+  color: #f9f9f9;
+  border: solid #747bff 3px;
+  border-radius: 5px;
+}
