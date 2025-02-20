@@ -1,0 +1,27 @@
+.TextInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  .input {
+    background: white;
+    color: #1a1a1a;
+    border-radius: 30px;
+    height: 130%;
+    width: 100%;
+    padding-left: 1rem;
+    font-size: 1rem;
+
+    &:focus {
+      box-shadow: #949cff 0 0 5px 2px;
+    }
+
+    &::placeholder {
+      font-style: italic;
+      opacity: 0.7;
+    }
+  }
+
+}

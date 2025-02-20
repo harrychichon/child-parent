@@ -1,0 +1,16 @@
+.AddClubForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+
+  input {
+    background: #f9f9f9;
+    
+  }
+
+  button {
+    align-self: center;
+    width: fit-content;
+  }
+}

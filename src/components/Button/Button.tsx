@@ -2,13 +2,13 @@ import './Button.scss';
 
 type ButtonProps = {
 	title: string,
-	handleClick: () => void;
+	onClick: () => void;
 }
 
-const Button = ({title, handleClick}: ButtonProps) => {
+const Button = ({title, onClick}: ButtonProps) => {
 
 	return (
-		<button onClick={handleClick} className="Button">
+		<button onClick={onClick} className="Button">
 			{title}
 		</button>
 	);

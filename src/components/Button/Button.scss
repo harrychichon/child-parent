@@ -1,5 +1,11 @@
 .Button {
-  background: #747bff;
+  background: darkslateblue;
   color: #f9f9f9;
-  border-radius: 15px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+
+    background: #535bf2;
+  }
 }
