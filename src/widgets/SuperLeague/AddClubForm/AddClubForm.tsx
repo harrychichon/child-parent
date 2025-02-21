@@ -23,7 +23,7 @@ const AddClubForm = ({
 			           onChange={(value) => onChange('clubName', value)} />
 			<TextInput text={parentLeague} inputValue={inputClub.parentLeague}
 			           onChange={(value) => onChange('parentLeague', value)} />
-			<Button title={'Promote Club'} onClick={onClick} />
+			<Button className="promte-club"title={'Promote Club'} onClick={onClick} />
 		</div>
 	);
 };
